@@ -1,0 +1,36 @@
+.box{
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 1400px;
+    
+}
+table{
+    border :1px solid #2e7d32;
+   border-radius: 10px;
+   width: 1500px;
+   margin: auto;
+
+}
+thead{
+    border :1px solid #2e7d32;
+}
+tr,td,th{
+    border :1px solid #2e7d32;
+    padding:10px 10px;
+}
+th:nth-child(2)
+{
+    width:fit-content;
+}
+tbody>tr{
+    height: auto;
+}
+tbody>tr>td>img{
+    height:150px;
+    width: 150px;
+}
+tbody>tr>td{
+    text-align: justify;
+    
+}

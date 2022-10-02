@@ -1,0 +1,17 @@
+.containerBox{
+    width: 60%;
+    margin-top: "40px";
+    border:1px solid black;
+    border-radius: 15px;
+    margin-top: "40px";
+    padding:35px 35px;
+}
+.containerBox>Input{
+    height:10px
+}
+.loginbutton{
+    color:black;
+    background-color:  #66bb6a;
+    width: 200px;
+    border:2px solid rgb(99, 222, 99)
+}
