@@ -1,7 +1,7 @@
 
 # OLx.in
 
-It is eccomerse website ,here you can buy or sell second hand product.
+It is eccomerse website ,here you can buy or sell second hand products.
 
 
 ## Tech Stack
