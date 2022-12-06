@@ -8,13 +8,13 @@ import { Grid,Box,Heading,VStack, GridItem } from '@chakra-ui/react'
 import axios from "axios"
 
 const getcars=()=>{
-    return axios.get(`https://thawing-anchorage-00134.herokuapp.com/api/post?id_gte=4&id_lte=7`)
+    return axios.get(`https://olxapi.onrender.com/post?id_gte=4&id_lte=7`)
 }
 const getmotarcycle=()=>{
-    return axios.get(`https://thawing-anchorage-00134.herokuapp.com/api/post?id_gte=18&id_lte=21`)
+    return axios.get(`https://olxapi.onrender.com/post?id_gte=18&id_lte=21`)
 }
 const getMobile=()=>{
-    return axios.get(`https://thawing-anchorage-00134.herokuapp.com/api/post?id_gte=30&id_lte=33`)
+    return axios.get(`https://olxapi.onrender.com/post?id_gte=30&id_lte=33`)
 }
 
 const Home=()=>{

@@ -17,7 +17,7 @@ import {
 
 
 const getdata=(params={})=>{
-    return axios.get(`https://thawing-anchorage-00134.herokuapp.com/api/post?category=mobile`,{
+    return axios.get(`https://olxapi.onrender.com/post?category=mobile`,{
         params:{
             location:params.location,
             brand:params.brand,

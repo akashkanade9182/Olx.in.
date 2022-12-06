@@ -6,10 +6,10 @@ import PostRow from "../components/PostRow";
 
 
 const getdata=()=>{
-    return axios.get(`https://thawing-anchorage-00134.herokuapp.com/api/mypost`);
+    return axios.get(`https://olxapi.onrender.com/mypost`);
 }
 const deletedata=(id)=>{
-    return axios.delete(`https://thawing-anchorage-00134.herokuapp.com/api/mypost/${id}`)
+    return axios.delete(`https://olxapi.onrender.com/mypost/${id}`)
 }
 
 

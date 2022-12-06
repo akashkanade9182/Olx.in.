@@ -18,7 +18,7 @@ import {
 
 
 const getdata=(params={})=>{
-    return axios.get(`https://thawing-anchorage-00134.herokuapp.com/api/post?category=cars`,{
+    return axios.get(`https://olxapi.onrender.com/post?category=cars`,{
         params:{
             location:params.location,
             brand:params.brand,
@@ -91,12 +91,12 @@ const handleClick=(id)=>{
        <Box onClick={()=>fetchfilterting("TOYOTO")}  cursor="pointer" color="grey"  pl='2' borderBottom="1px" >Toyoto</Box>
        <Box onClick={()=>fetchfilterting("HYUNDAI")}  cursor="pointer" color="grey"  pl='2' borderBottom="1px" >Hyundai</Box>
         </Box>
-        <Box  color="grey" pl='2'fontWeight={"bold"} color="black"  ><ArrowRightIcon/>Sort by price</Box>
+        <Box   pl='2'fontWeight={"bold"} color="black"  ><ArrowRightIcon/>Sort by price</Box>
         <Box marginBottom="50px" >
         <Box  onClick={()=>fetchsortaccendting()}  cursor="pointer" pl='2' borderBottom="1px" >price low to high</Box>
        <Box onClick={fetchsortdesendting} cursor="pointer" pl='2' borderBottom="1px" >price high to low</Box>
        </Box>
-       <Box  color="grey" pl='2'fontWeight={"bold"} color="black"><ArrowRightIcon/>Locations Results</Box>
+       <Box  pl='2'fontWeight={"bold"} color="black"><ArrowRightIcon/>Locations Results</Box>
 
        <Box  >
        <Box cursor="pointer" pl='2' borderBottom="1px" >BMW</Box>

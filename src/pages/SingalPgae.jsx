@@ -19,7 +19,7 @@ import {
 
   
 const getdata=(id)=>{
-    return axios.get(`https://thawing-anchorage-00134.herokuapp.com/api/post/${id}`)
+    return axios.get(`https://olxapi.onrender.com/post/${id}`)
 }
 
 
